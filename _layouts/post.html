@@ -1,0 +1,19 @@
+---
+layout: default
+active: blog
+---
+
+{% include header.html %}
+
+<h1 class="blog-title font1 fw900">{{ page.title }}</h1>
+<p class="blog-subtitle">{{ page.subtitle }}</p>
+<span class="date font1">Posted by <strong class="date-nmb">{{ page.author-name }}</strong> on <strong class="date-nmb">{{ page.post-date }}</strong></span>
+<div class="blog-images" style="background-image: url('{{ site.url }}/assets/img/{{ page.bgimage }}.jpg');"></div>
+
+<article id="blog-post">
+    <div class="font1 fw500">
+         {{ content }}
+    </div>
+</article>
+{% include _smart/blog.html %}
+{% include footer.html %}

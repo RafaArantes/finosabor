@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+.header-color{
+  color: #666666;
+}
+
+.content-color{
+  color: #8b8b8b;
+}
+.hidden{
+  display: none;
+}
+.content-color2{
+  color: #8e8e8e;
+}
+
+.main-color{
+  color: #62d2a3;
+}
+
+.main-bgc{
+  background-color: #00c87f;
+}
+
+.white{
+  color: #fff;
+}
+
+.db{
+  display: block;
+}
+
+.fz10{
+  font-size: 10px;
+}
+
+.ta{
+  text-align: center;
+}
+
+.brs{
+  border-radius: 5px;
+}
+
+.tar{
+  text-align: right;
+}
+
+.border{
+  border-radius: 5px;
+  border: none;
+}
+.dn{
+  display: none;
+}

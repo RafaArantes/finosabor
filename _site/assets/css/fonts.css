@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url(../fonts/MuseoSansRounded-100.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url(../fonts/MuseoSansRounded-300.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url(../fonts/MuseoSansRounded-500.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url(../fonts/MuseoSansRounded-700.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url(../fonts/MuseoSansRounded-900.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/proximanova-bold.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/proximanova-semibold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/proximanova-regula.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/proximanova-regularit.ttf);
+    font-style: italic;
+}
+*{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.font1{
+  font-family: "Proxima Nova";
+}
+.font2{
+  font-family: "Museo Sans Rounded";
+}
+.fsit{
+  font-style: italic;
+}
+.fw100{
+  font-weight: 100;
+}
+.fw300{
+  font-weight: 300;
+}
+.fw500{
+  font-weight: 500;
+}
+.fw700{
+  font-weight: 700;
+}
+.fw900{
+  font-weight: 900;
+}

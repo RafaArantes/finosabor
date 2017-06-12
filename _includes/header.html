@@ -1,0 +1,50 @@
+<nav>
+    <ul class="left">
+      <li>
+        <div class="logo" onclick="window.location.href='{{ site.url }}'"></div>
+      </li>
+      <li  class="dnr">
+        <a class="font2 fw500 content-color" href="{{ site.url }}/smart">Smart Energy</a>
+      </li>
+      <li class="dnr">
+        <a class="font2 fw500 content-color {% if(page.active == 'about') %}brs active{% endif %}" href="{{ site.url }}/about">About</a>
+      </li >
+      <li  class="dnr">
+        <a class="font2 fw500 content-color {% if(page.active == 'projects') %}brs active{% endif %}" href="{{ site.url }}/projects">Use Cases</a>
+      </li>
+    </ul>
+    <ul class="right">
+      <li class="dnr">
+        <a class="font2 fw500 content-color" href="{{ site.url }}/contact">Contact</a>
+      </li>
+      <li class="dnr">
+        <a class="font2 fw500 main-bgc white btn get db brs" href="{{ site.url }}/get_started">Get Started</a>
+      </li>
+      <li class="dn dbr">
+        <div class="menu-icon"></div>
+      </li>
+    </ul>
+  </nav>
+  <div class="overlay">
+    <div class="menu-icon2"></div>
+    <ul>
+      <li>
+        <a class="font2 fw500 white" href="{{ site.url }}/smart">Smart Energy</a>
+      </li>
+      <li>
+        <a class="font2 fw500 white" href="{{ site.url }}/about">About</a>
+      </li>
+      <li>
+        <a class="font2 fw500 white" href="{{ site.url }}/projects">Use Cases</a>
+      </li>
+      <li>
+        <a class="font2 fw500 white" href="{{ site.url }}/contact">Contact</a>
+      </li>
+      <li>
+        <a class="font2 fw500 white" href="{{ site.url }}/get_started">Get Started</a>
+      </li>
+    </ul>
+  </div>
+  {% if page.active == "home" %}
+      {% include _home/welcome.html %}
+  {% endif %}

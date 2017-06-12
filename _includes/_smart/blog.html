@@ -1,0 +1,25 @@
+<section class="blog">
+  <h2 class="tittle font2 fw300 header-color ta">About Smart Things</h2>
+  <p class="subtittle font1 fw300 content-color ta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <div class="center">
+    {% for post in site.posts limit:3 %}
+        {% if post.categories contains 'smart'%}
+      <div class="blogpost">
+        <div class="blogcover {{ post.cover }}">
+          <p class="blogsubject font1 fw900 white">{{ post.section }}</p>
+          <h2 class="font1 fw900 white">{{ post.title }}</h2>
+          <div class="font1 fw500 btn brs" onclick="window.location='{{ site.url }}/{{ post.url }}'">READ MORE</div>
+        </div>
+        <!-- {{ post.date | date: "%B %e, %Y" }} -->
+        <div class="blogfooter">
+          <div class="coments"></div>
+          <div class="likes"></div>
+          <div class="avatar">
+            <div class="pname font1 fw700">{{ post.author-name }}</div>
+            <div class="pface user-{{ post.author-username }}"></div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+</section>
