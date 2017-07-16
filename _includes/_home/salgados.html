@@ -1,0 +1,43 @@
+<section class="salgados-section">
+  <h2 class="font3 fw500 main-gray tac">Nossos Produtos</h2>
+  <p class="subtitle light-gray font1 fw500 tac">Aqui você encontra a maioria de todos nossos produtos, desde integrais até variados</p>
+  <div class="middleblock">
+    <div class="filters">
+      <div class="filter">
+        <div class="fitericon"></div>
+        <p class="filtertext font1 fw500">TODOS SALGADOS</p>
+      </div>
+      <div class="filter">
+        <div class="fitericon"></div>
+        <p class="filtertext font1 fw500">SALGADOS NORMAIS</p>
+      </div>
+      <div class="filter">
+        <div class="fitericon"></div>
+        <p class="filtertext font1 fw500">SALGADOS INTEGRAIS</p>
+      </div>
+      <div class="filter">
+        <div class="fitericon"></div>
+        <p class="filtertext font1 fw500">OUTROS TIPOS</p>
+      </div>
+    </div>
+    <div class="salgados">
+    {% for image in page.images %}
+      <div class="salgado {{ image.class }}">
+        <div class="salgadoimg" style="background-image: url({{ image.image_path }});" >
+
+        </div>
+        <h3 class="salgado-nome font1 fw700 tac main-gray">{{ image.title }}</h3>
+        <p class="salgado-ver font1 fw500 white tac">Visualizar Informações</p>
+      </div>
+      <div class="overlay {{ image.class }}">
+        <div class="overlayexit"></div>
+        <div class="modal">
+          <div class="salgadoimgbigger"></div>
+          <h3 class="salgado-nome-modal font3 fw500 main-gray">{{ image.title }}</h3>
+          <p class="salgado-descricao font1 fw500 light-gray">{{ image.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

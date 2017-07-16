@@ -43,6 +43,11 @@
     src: url(../fonts/proximanova-regularit.ttf);
     font-style: italic;
 }
+@font-face {
+  font-family: "Pacifico";
+  src: url(../fonts/pacifico.tff);
+}
+
 *{
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -53,6 +58,9 @@
 }
 .font2{
   font-family: "Museo Sans Rounded";
+}
+.font3{
+  font-family: "Pacifico";
 }
 .fsit{
   font-style: italic;
