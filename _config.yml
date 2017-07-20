@@ -1,5 +1,8 @@
+collections:
+  - parceiros
 title: Fino Sabor
 description: Fino Sabor
+#url: localhost:4000
 url: xxrafaelzxx.github.io/finosabor
 permalink: /blog/:categories/:year/:month/:day/:title.html
 markdown: kramdown

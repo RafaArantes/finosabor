@@ -1,4 +1,4 @@
 ---
-image_parceiro: /assets/img/parceiro.png
-title: Parceiro
+image_path: /assets/img/parceiro.png
+title: parceiro
 ---

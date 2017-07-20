@@ -2,8 +2,10 @@
 <h2 class="font3 fw500 main-gray tac">Parceiros</h2>
 <p class="font1 fw500 light-gray tac">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolor maxime veniam, est ab quas.</p>
 <div class="middleblock">
-  {% for image im site.parceiros %}
-  <div class="parceiro" style=" background-image: url({{ image.image_path }});"></div>
-  {% endfor %}
+  <div class="parceiros">
+    {% for image in site.parceiros %}
+      <div class="parceiro" style=" background-image: url({{ image.image_path }});"></div>
+    {% endfor %}
+  </div>
 </div>
 </section>
