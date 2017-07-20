@@ -1,0 +1,16 @@
+<section class="eventos-section">
+  <h2 class="font3 fw500 main-gray tac">Proximos Eventos</h2>
+  <p class="subtitle light-gray font1 fw500 tac">Veja os eventos em que nossos produtos foram utilizados</p>
+  <div class="middleblock">
+    <div class="eventos">
+      {% for posts in site.posts limit:20 %}
+      <div class="evento">
+        <div class="eventoimg"></div>
+        <span class="category font1 fw500">Eventos</span>
+        <h3 class="evento-titulo font1 fw700 main- tac">Evento - Gallois Asa Norte</h3>
+        <p class="evento-subtitulo font1 fw500 light-gray tac">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -13,14 +13,13 @@
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-image: url(../img/Quadriculado.png);
+  background-image: url(../img/quadriculado.png);
 }
 .logo{
   background-image: url(../img/logo.png);
   height: 118px;
   width: 118px;
   margin-top: -22px;
-  margin-left: 22px;
 }
 .main-nav{
   width: 87.30%;
@@ -34,11 +33,16 @@
 .main-nav .right ul{
   padding-right: 20px;
 }
+.centernav{
+  width: 673px;
+  margin: 0 auto;
+}
 .nav-item{
-  float: right;
-  margin: 28px 10px;
+float: left;
+margin: 0 10px;
 }
 .nav-item a{
+  margin-top: 27px;
   font-size: 16px;
   text-transform: uppercase;
   display: block;
@@ -241,6 +245,7 @@
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -305,4 +310,49 @@
   max-width: 670px;
   margin: 10px auto;
   font-size: 14px;
+}
+
+/* Quem Somos Home */
+.row{
+  height: 522px;
+}
+.quemsomos-section{
+  margin-top: 150px;
+  padding-bottom: 10px;
+}
+.row div h2{
+  font-size: 28px;
+}
+.leftqs h2, .leftqs p{
+  max-width: 424px;
+  margin: 120px auto 35px;
+}
+.rightqs h2, .rightqs p{
+  max-width: 424px;
+  margin: 120px auto 35px;
+}
+.leftqs p, .rightqs p{
+  font-size: 16px;
+  color: rgb(106, 106, 106);
+  margin-top: 35px;
+  line-height: 1.2;
+  text-align: left;
+}
+.imageqs1{
+  margin: 0 auto;
+  background-image: url("../img/Salgados Quemsomos.png");
+  height: 501px;
+  width: 412px;
+}
+.imageqs2{
+  margin: 0 auto;
+  background-image: url("../img/Salgados Quemsomos2.png");
+  height: 501px;
+  width: 412px;
+}
+.imageqs3{
+  margin: 0 auto;
+  background-image: url("../img/Salgados Quemsomos2.png");
+  height: 501px;
+  width: 412px;
 }

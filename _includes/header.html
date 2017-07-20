@@ -1,14 +1,15 @@
 <header class="padtop">
   <nav class="main-nav">
-    <div class="left">
-      <div class="logo"></div>
-    </div>
-    <div class="right">
+    <div class="centernav">
       <ul>
-        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/contato">Contato</a></li>
-        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/eventos">Eventos</a></li>
-        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/quemsomos">Quem Somos</a></li>
         <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/">Home</a></li>
+        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/quemsomos">Produtos</a></li>
+        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/clientes">Clientes</a></li>
+        <li class="nav-item">
+          <div class="logo"></div>
+        </li>
+        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/eventos">Eventos</a></li>
+        <li class="nav-item"><a class="main-gray fw700 font1" href="{{ site.url }}/contato">Contato</a></li>
       </ul>
       <div class="tel-mail">
         <div class="email fw900 fsit font1">contato@finosabor.com.br</div>
@@ -21,7 +22,7 @@
       {% include _home/welcome.html %}
   {% endif %}
   </div>
-  {% if page.active == "quem_somos" %}
+  {% if page.active == "quemsomos" %}
       {% include _quemsomos/welcome.html %}
   {% endif %}
   {% if page.active == "contact" %}
