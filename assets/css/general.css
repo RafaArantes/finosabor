@@ -385,6 +385,7 @@ margin: 0 10px;
   margin: 20px auto 0;
   background-color: #efefef;
   border: none;
+  display: block;
   font-size: 20px;
   box-sizing: border-box;
   padding: 10px;
@@ -396,6 +397,7 @@ margin: 0 10px;
   width: 420px;
   margin: 20px auto 0;
   border: none;
+  display: block;
   background-color: #efefef;
   font-size: 20px;
 }
