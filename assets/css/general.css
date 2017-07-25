@@ -366,18 +366,21 @@ margin: 0 10px;
   background-image: url("../img/ceub.png");
   height: 501px;
   width: 412px;
+  background-repeat: no-repeat;
 }
 .imagep2{
   margin: 0 auto;
   background-image: url("../img/iesb.jpg");
   height: 501px;
   width: 412px;
+  background-repeat: no-repeat;
 }
 .imagep3{
   margin: 0 auto;
   background-image: url("../img/galois.png");
   height: 501px;
   width: 412px;
+  background-repeat: no-repeat;
 }
 .parceiros{
   width: 100%;
