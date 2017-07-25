@@ -360,6 +360,25 @@ margin: 0 10px;
   height: 501px;
   width: 412px;
 }
+
+.imagep1{
+  margin: 0 auto;
+  background-image: url("../img/uniceub.png");
+  height: 501px;
+  width: 412px;
+}
+.imagep2{
+  margin: 0 auto;
+  background-image: url("../img/iesb.jpg");
+  height: 501px;
+  width: 412px;
+}
+.imagep3{
+  margin: 0 auto;
+  background-image: url("../img/galois.png");
+  height: 501px;
+  width: 412px;
+}
 .parceiros{
   width: 100%;
   display: flex;
